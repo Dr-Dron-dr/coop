@@ -1,1 +1,26 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.parent {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.parent .children1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: antiquewhite;
+}
+
+.parent .children1 {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: aqua;
+}
+/*# sourceMappingURL=style.css.map */
